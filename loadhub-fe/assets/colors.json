@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "main-blue": "#2265A2",
+    "dark-blue": "#062654",
+    "light-blue": "#EAF0F7",
+    "dark-text": "#161C2D",
+    "gray-text": "#64748B",
+    "off-white": "#FBFCFC",
+    "lightest-blue": "#7FADE0",
+    "light-grey": "#E2E8F0",
+    "medium-grey": "#D2D8DD",
+    "error": "#D01149",
+    "dark-orange": "#FB6944"
+  }
+}
