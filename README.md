@@ -1,3 +1,9 @@
+# Clarificări la soluția 2
+
+Ideea este să tratăm fiecare coordonată GPS ca un "tic" (un step) într-o mașină de stare, care poate schimba statusul unui transport. Serviciul procesează punctele în ordine cronologică și aplică aceleași reguli pentru fiecare punct, astfel încât trimiterea bulk se comportă la fel ca trimiterea în timp real.
+
+Mașina de stareare cinci stări: draft, ready, moving, paused, finalised. Serviciul evaluează un set de tranziții, bazate pe două semnale derivate din coordonate: proximitate (distanța față de punctul de start/destinație) și viteză (calculată din două puncte consecutive).
+
 # Backend (loadhub-be)
 loadhub-be conține o versiune simplificată a unor subsisteme din LoadHub.
 Scopul exercițiului este să rezolvați cerințele prin scrierea codului, fără a fi necesară rularea aplicației.
